@@ -133,6 +133,26 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.wildfly.plugins</groupId>
+        <artifactId>wildfly-maven-plugin</artifactId>
+        <version>${version.wildfly.plugin}</version>
+        <executions>
+                <execution>
+                        <id>deploy-wildfly</id>
+                        <phase>install</phase>
+                        <goals>
+                                <goal>${jboss.comando}</goal>
+                        </goals>
+                </execution>
+        </executions>
+        <configuration>
+                <hostname>${jboss.hostname}</hostname>
+                <port>${jboss.port}</port>
+                <username>${jboss.username}</username>
+                <password>${jboss.password}</password>
+        </configuration>
+     </plugin>
     </plugins>
   </build>
 
