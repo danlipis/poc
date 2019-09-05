@@ -49,7 +49,7 @@ public class ExampleServlet extends HttpServlet {
 			out.println("<!DOCTYPE html>");
 			out.println("<html>");
 			out.println("<head>");
-			out.println("<title>WildFly is not Kubernetes/OpenShift with Fabric8</title>");
+			out.println("<title>WildFly together Kubernetes/OpenShift with Fabric8</title>");
 			out.println("</head>");
 			out.println("<body>");
 			out.println("<h1>WildFly and Kubernetes/OpenShift with Fabric8 at " + request.getServerName() + "</h1>");
