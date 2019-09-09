@@ -49,7 +49,7 @@ public class ExampleServlet extends HttpServlet {
 			out.println("<!DOCTYPE html>");
 			out.println("<html>");
 			out.println("<head>");
-			out.println("<title>Git, Jenkins and WildFly with Fabric8</title>");
+			out.println("<title>Git, Jenkins and WildFly Fabric8</title>");
 			out.println("</head>");
 			out.println("<body>");
 			out.println("<h1>Jenkins is deploying Wildfly to test CI/CD</h1>");
